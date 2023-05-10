@@ -1,23 +1,41 @@
-import logo from './logo.svg';
 import './App.css';
 
+import AnkitApp from './AnkitKannaujiya/AnkitApp'
+
+// import HookApp from './Hooks/HookApp'
+
+// import HooksApp from './ThapaHooks/HooksApp'
+// import Demo from './component/Demo'
+// import Homepage from './Website/Home'
+// import Loginvalid from './Loginvalid'
+// import FormValidation from './FormValidation'
+// import UsFect from './UseEffect'
+// import Bestvalidation from './Bestvalidation'
+// import AllComponentApp from './tutorial31/AllComponentApp'
+// import Conditionr from './ConditionREndering/Conditionr'
+// import RouterApp from './Router/RouterApp'
+import AllHook from './HOOK THapa/AllHook'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <AnkitApp/>
+    {/* 
+    <HooksApp/>
+    <Demo/>
+    <Homepage/>
+    <Loginvalid/>
+    <FormValidation/>
+    <UsFect/> */}
+    {/* <Conditionr/> */}
+    
+    {/* <Bestvalidation/>
+    <AllComponentApp/> */}
+
+
+    {/* <HookApp/> */}
+    {/* <RouterApp/> */}
+    <AllHook/>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: aqua;
 }
 
 .App-logo {
@@ -22,6 +23,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -35,4 +37,114 @@
   to {
     transform: rotate(360deg);
   }
+}
+.regicon{
+  width: 500px !important
+
+}
+.btn{
+  width: 20px 40px;
+  height: 40px;
+  font-size: 20px;
+  color: yellow;
+  background: black;
+  border-radius: 8px;
+}
+.btn:hover{
+  background-color: red;
+  transition: 0.5s;
+  animation-duration: 0.5s;
+}
+.h1style{
+  min-width: 10rem;
+  width: 70rem;
+  padding: 1rem 8rem;
+  background-color: aqua;
+  color: black;
+  cursor: pointer;
+  border-radius: 1rem;
+  font-size: 3rem;
+  
+  justify-content: right;
+
+}
+.btn1{
+  width: 20px 40px;
+  height: 40px;
+  font-size: 20px;
+  color: yellow;
+  background: black;
+  border-radius: 8px;
+  margin-left: 120px;
+}
+.item{
+  
+  height: 70px;
+  width: 1450px;
+  margin: 10px;
+  padding: 10px;
+  background-color: red;
+  color: black;
+  font-size: 18px;
+  border-radius: 14px;
+}
+.paragraph{
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    font: bold;
+    color: green;
+    
+}
+.loading{
+  text-align: center;
+  font-size: 80px;
+  font: bold;
+  background-color: aqua;
+  color: black;
+}
+.forml{
+  height: 150px;
+  width: 350px;
+  background-color: black;
+  color: yellow;
+  margin-top: 40px ;
+  margin-left: 600px;
+}
+.w{
+  color: red;
+}
+
+.nvbar{
+  text-align: right;
+}
+
+.navbarlink.active{
+  color: palevioletred;
+}
+.nvbar li{
+  display: inline-block;
+  padding: 20px;
+}
+
+.navbarlink{
+  text-decoration: none;
+  color: black;
+}
+
+.navbarlink:hover{
+  color: red;
+}
+.logokliye{
+  text-align: left;
+  justify-content: left;
+  
+}
+.formankit{
+  width: 400px;
+  margin: 0 auto;
+  height: 400px;
+  border: 2px solid red ;
+  background-color: rgb(254, 241, 0);
+
 }
